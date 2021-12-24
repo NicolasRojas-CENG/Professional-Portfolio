@@ -1,9 +1,72 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
+header {
+    top: 0;
+    display: flex;
+    z-index: 9999;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    padding: 20px 30px 20px 30px ; 
+    justify-content: space-between;
+    background-color: rgb(40, 44, 52);  
+  }
 
+  header a {
+    color: rgb(207, 140, 16);
+    text-decoration: none;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: rgb(207, 140, 16);
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: lighter;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  header nav ul li ul {
+      display: none;
+      height: auto;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+  }
+
+  header nav ul ul li {
+    position: relative;
+    background-color: rgb(40, 44, 52);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    line-height: 2;
+  }
+
+  header nav ul li:hover ul{
+      display: block;
+  }
 
 #Web_Apps_Sites article, 
 #On_Going_Projects article,
