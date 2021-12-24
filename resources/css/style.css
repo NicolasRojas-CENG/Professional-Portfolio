@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#Web_Apps_Sites article, 
+#On_Going_Projects article,
+#Other_Projects article {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Web_Apps_Sites img,
+#On_Going_Projects img,
+#Other_Projects img {
+    height: 150px;
+    width: 600px;
+    margin: 10px 50px 10px 50px;
+}
