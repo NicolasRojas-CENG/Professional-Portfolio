@@ -1,9 +1,10 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
+/*This section is for the header in general*/
 header {
     top: 0;
     display: flex;
@@ -16,56 +17,66 @@ header {
     background-color: rgb(40, 44, 52);  
   }
 
+  /*This sectin is to style the links, overwriting their default style.*/
   header a {
-    color: rgb(207, 140, 16);
     text-decoration: none;
+    color: rgb(207, 140, 16);
+    
   }
+
+  /*This section styles the site's title - my name.*/
   header h1 {
     margin: 0;
     font-size: 36px;
+    font-weight: bolder;
     color: rgb(207, 140, 16);
-    font-weight: bold;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
   header nav {
-    margin: 7px 0;
+    margin: 5px 0;
   }
   
+  /*This section styles the list used for the nav links.
+  It also allows the content of the list to adjust to the users viewprt size.*/
   header nav ul{
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    align-items: center;
-    justify-content: space-between;
   }
   
+  /*This section provides styling to the text of the links.*/
   header nav ul li a {
+    font-size: 2rem;
     padding: 10px 15px;
-    font-size: 16px;
-    font-weight: lighter;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
+  /*This section of code controls the behaviour of the dropdown menu items.*/
   header nav ul li ul {
-      display: none;
-      height: auto;
       margin: 0;
       padding: 0;
+      display: none;
       position: absolute;
   }
 
   header nav ul ul li {
-    position: relative;
-    background-color: rgb(40, 44, 52);
-    background-size: cover;
-    background-position: 80%;
-    background-attachment: fixed;
     line-height: 2;
+    background-color: rgb(40, 44, 52);
+    
   }
+
+header nav ul li a:hover{
+    color: rgb(131, 88, 8);
+}
 
   header nav ul li:hover ul{
       display: block;
+  }
+
+  /*Allowing the banner to take the width of the user's viewport.*/
+  #banner img {
+      width: 100%;
   }
 
 #Web_Apps_Sites article, 
@@ -79,7 +90,7 @@ header {
 #Web_Apps_Sites img,
 #On_Going_Projects img,
 #Other_Projects img {
-    height: 150px;
     width: 600px;
+    height: 150px;
     margin: 10px 50px 10px 50px;
 }
