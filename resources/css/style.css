@@ -78,13 +78,17 @@ header nav ul li a:hover{
       display: block;
   }
 
+  main {
+      display: inline-block;
+  }
+
   /*Allowing the banner to take the width of the user's viewport.*/
   #banner img {
       width: 100%;
   }
 
-  /*This section provieds styling for the about me section.*/
-  #About_Me {
+  /*This section provieds styling for each of the sections.*/
+  #About_Me, #Purpose {
       width: 100%;
       height: 50vh;
       margin-top: 0;
@@ -124,6 +128,41 @@ header nav ul li a:hover{
       position: inherit;
       color: rgb(215, 168, 82);
   }
+
+  /*This is to move the container to the desired position*/
+  #Purpose article {
+    top: 10vh;
+    width: 75%;
+    height: 45vh;
+    position: relative;
+    background-image: linear-gradient(to right, rgb(40, 44, 52), rgba(207, 140, 16,0.8)) 
+}
+
+/*This is to move the img to the desired position.*/
+#Purpose img {
+    left: 63%;
+    width: 25%;
+    z-index: 1;
+    top: -42.5vh;
+    height: 40vh;
+    position: relative;
+    margin: 10vh 0 4vh 0;
+}
+
+#Purpose h2{
+    left: 63%;
+    font-size: 60px;
+    position: inherit;
+    color: rgb(79, 62, 30);
+  }
+
+  #Purpose p {
+    left: 5%;
+    width: 75%;
+    font-size: 30px;
+    position: inherit;
+    color: rgb(215, 168, 82);
+}
 
 #Web_Apps_Sites article, 
 #On_Going_Projects article,
