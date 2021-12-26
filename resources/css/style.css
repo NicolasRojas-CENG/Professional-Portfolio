@@ -244,8 +244,7 @@ header nav ul li a:hover{
     margin-top: 2vh;
 }
 
-/*This section styles the header of the on going projects article.*/
-
+/*This section styles the header of the ongoing projects article.*/
 #Ongoing_Projects article {
     margin: 80px;
     display: flex;
@@ -269,5 +268,32 @@ header nav ul li a:hover{
 }
 
 #Ongoing_Prohects .second_row {
+    margin-top: 2vh;
+}
+
+/*This section styles the header of the ongoing projects article.*/
+#Other_Projects article {
+    margin: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -29.5vh;
+    background-image: linear-gradient(to bottom, rgba(207, 140, 16,0.8), rgb(40, 44, 52)) 
+}
+
+#Other_Projects h2 {
+    top: -13vh;
+    z-index: 1;
+    font-size: 60px;
+    position: relative;
+    text-align: center;
+    color: rgb(79, 62, 30);
+}
+
+#Other_Projects .first_row {
+    margin-top: 12vh;
+}
+
+#Other_Projects .second_row {
     margin-top: 2vh;
 }
