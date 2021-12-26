@@ -203,15 +203,44 @@ header nav ul li a:hover{
 #Web_Apps_Sites article, 
 #On_Going_Projects article,
 #Other_Projects article {
-    margin: 10px;
+    margin: 80px;
     display: flex;
     flex-wrap: wrap;
+    background-image: linear-gradient(to bottom, rgba(207, 140, 16,0.8), rgb(40, 44, 52)) 
 }
 
 #Web_Apps_Sites img,
 #On_Going_Projects img,
 #Other_Projects img {
-    width: 600px;
+    width: 45%;
     height: 150px;
     margin: 10px 50px 10px 50px;
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+}
+
+#Web_Apps_Sites img:hover,
+#On_Going_Projects img:hover,
+#Other_Projects img:hover {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+}
+
+/*This section styles the header of the web apps/sites article.*/
+#Web_Apps_Sites h2{
+    top: 16vh;
+    z-index: 1;
+    font-size: 60px;
+    position: relative;
+    text-align: center;
+    color: rgb(79, 62, 30);
+}
+
+/*The following two sections are to create equal spacing around the images.*/
+#Web_Apps_Sites .first_row {
+    margin-top: 12vh;
+}
+
+#Web_Apps_Sites .second_row {
+    margin-top: 2vh;
 }
