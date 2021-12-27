@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="500" height="500" viewBox="0 0 500 500" xml:space="preserve">
+<desc>Created with Fabric.js 4.6.0</desc>
+<defs>
+</defs>
+<g transform="matrix(5.47 0 0 5.47 229.29 226.62)" id="hZixdZgn1iUqH6FrZz-6_"  >
+<path style="stroke: rgb(68,192,19); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(172,139,58); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -50 -50 L 50 -50 L 50 50 L -50 50 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(-1 0 0 3.51 238.28 250)" id="8WvO1iHUjhjBi9024Y2yK"  >
+<linearGradient id="SVGID_821" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -212.45 -66.46)"  x1="132.8125" y1="31.402677416928277" x2="365.80923680320643" y2="98.87804927613543">
+<stop offset="0%" style="stop-color:#894304;stop-opacity: 1"/>
+<stop offset="51.89410445647537%" style="stop-color:#AE632F;stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:#CA8956;stop-opacity: 1"/>
+</linearGradient>
+<filter id="SVGID_0" y="-23%" height="146%" x="-21%" width="142%" >
+	<feGaussianBlur in="SourceAlpha" stdDeviation="0"></feGaussianBlur>
+	<feOffset dx="-4" dy="4" result="oBlur" ></feOffset>
+	<feFlood flood-color="rgb(0,0,0)" flood-opacity="1"/>
+	<feComposite in2="oBlur" operator="in" />
+	<feMerge>
+		<feMergeNode></feMergeNode>
+		<feMergeNode in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<path style="stroke: rgb(0,0,0); stroke-width: 3; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_821); fill-rule: nonzero; opacity: 1;filter: url(#SVGID_0);" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -140.09343 -42.91295 C 133.83234999999996 7.380019999999995 52.53351999999998 66.46205 52.53351999999998 66.46205 L 212.44563 15.192520000000002 C 212.44563 15.192520000000002 3.9495399999999847 13.239400000000002 94.28156999999999 -19.475449999999995 C 184.6136 -52.19029 -414.01921 -93.20591999999999 -140.09343 -42.912949999999995 z" stroke-linecap="round" />
+</g>
+</svg>

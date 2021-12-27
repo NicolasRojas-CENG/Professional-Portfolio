@@ -1,0 +1,92 @@
+@media screen and (max-width: 575px) {
+    
+    header h1{
+        font-size: 32px;
+    }
+
+    header nav ul li a {
+        font-size: 28px;
+    }
+
+    header nav ul ul li {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    #About_Me, #Purpose, #Featured_Project {
+        width: 100%;
+    }
+
+    #About_Me article, #Purpose article, #Featured_Project article {
+        width: 100%;
+        margin-left: 0;
+        display: inline-flex;
+    }
+
+    #About_Me h2, #Purpose h2, #Featured_Project h2 {
+        font-size: 30px;
+        margin-left: 0;
+        padding: 0;
+        width: 100%;
+        color: rgb(221, 200, 163);
+    }
+
+    #About_Me p, #Purpose p, #Featured_Project p {
+        font-size: 20px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        color: rgb(238, 196, 119);
+    }
+
+    #About_Me img, #Purpose img, #Featured_Project img {
+        width: 30%;
+        height: 30%;
+        padding: 0;
+        margin: 120px 10px 0 10px;
+    }
+
+    #Purpose article {
+        margin: 0;
+    }
+
+    #Web_Apps_Sites h2,
+    #Ongoing_Projects h2,
+    #Other_Projects h2 {
+        color: rgb(221, 200, 163);
+        font-size: 30px;
+    }
+
+    #Contact_Info article{
+        padding-top: 0;
+        width: 90%;
+        margin: 0 0 0 20px;
+    }
+
+    #Contact_Info div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #Contact_Info h2 {
+        color: rgb(221, 200, 163);
+        font-size: 26px;
+    }
+
+    #Contact_Info p {
+        margin: 0;
+        font-size: 18px;
+        width: 100%;
+        color: rgb(238, 196, 119);
+    }
+
+    #Contact_Info a {
+        font-weight: normal;
+        font-size: 20px;
+        justify-content: space-evenly;
+    }
+}
