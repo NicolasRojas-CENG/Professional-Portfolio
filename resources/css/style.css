@@ -1,161 +1,167 @@
-:root{
-    --Navegation_colour: rgb(207, 140, 16);
-    --Backgroun_colour: rgb(40, 44, 52);
-    --Text_shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    --Gradient_colour: rgba(207, 140, 16, 0.8);
-    --Content_colour: rgb(215, 168, 82);
+    /*This will allow quick changes to the style of the websaite.*/
+    :root{
+        /*Colours.*/
+        --Navegation_colour: rgb(207, 140, 16);
+        --Backgroun_colour: rgb(40, 44, 52);
+        --Text_shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        --Gradient_colour: rgba(207, 140, 16, 0.8);
+        --Content_colour: rgb(215, 168, 82);
 
-    --Header_text_size: 60px;
-    --Content_text_size: 30px;
-}
+        /*Text sizes.*/
+        --Header_text_size: 60px;
+        --Content_text_size: 30px;
+    }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    /*Universal styling.*/
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-body {
-    background-color: var(--Backgroun_colour);
-}
+    body {
+        background-color: var(--Backgroun_colour);
+    }
 
-/*This section is for the header in general*/
-header {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px 30px; 
-    justify-content: space-between;  
-  }
+    /*This section is for the header in general*/
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 30px; 
+        justify-content: space-between;  
+    }
 
-  /*This sectin is to style the links, overwriting their default style.*/
-  header a {
-    text-decoration: none;
-    color: var(--Navegation_colour);
-  }
+    /*This sectin is to style the links, overwriting their default style.*/
+    header a {
+        text-decoration: none;
+        color: var(--Navegation_colour);
+    }
 
-  /*This section styles the site's title - my name.*/
-  header h1 {
-    font-size: 36px;
-    font-weight: bolder;
-    color: var(--Navegation_colour);
-    text-shadow: var(--Text_shadow);
-  }
+    /*This section styles the site's title - my name.*/
+    header h1 {
+        font-size: 36px;
+        font-weight: bolder;
+        color: var(--Navegation_colour);
+        text-shadow: var(--Text_shadow);
+    }
   
-  header nav {
-    margin: 5px 0;
-  }
+    header nav {
+        margin: 5px 0;
+    }
   
-  /*This section styles the list used for the nav links.
-  It also allows the content of the list to adjust to the users viewprt size.*/
-  header nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-  }
+    /*This section styles the list used for the nav links.
+    It also allows the content of the list to adjust to the users viewprt size.*/
+    header nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+    }
   
-  /*This section provides styling to the text of the links.*/
-  header nav ul li a {
-    font-size: 2rem;
-    padding: 10px 15px;
-    text-shadow: var(--Text_shadow);
-  }
+    /*This section provides styling to the text of the links.*/
+    header nav ul li a {
+        font-size: 2rem;
+        padding: 10px 15px;
+        text-shadow: var(--Text_shadow);
+    }
 
-  /*This section of code controls the behaviour of the dropdown menu items.*/
-  header nav ul li ul {
-      margin: 0;
-      padding: 0;
-      display: none;
-      position: absolute;
-  }
+    /*This section of code controls the behaviour of the dropdown menu items.*/
+    header nav ul li ul {
+        margin: 0;
+        padding: 0;
+        display: none;
+        position: absolute;
+    }
 
-  header nav ul ul li {
-    line-height: 2;
-  }
+    header nav ul ul li {
+        line-height: 2;
+    }
 
-header nav ul li a:hover{
-    color: rgb(131, 88, 8);
-}
+    /*To give some user interactivity.*/
+    header nav ul li a:hover{
+        color: rgb(131, 88, 8);
+    }
 
-  header nav ul li:hover ul{
-      display: block;
-  }
+    header nav ul li:hover ul{
+        display: block;
+    }
 
-  main {
-      display: inline-block;
-  }
+    main {
+        display: inline-block;
+    }
 
-  /*Allowing the banner to take the width of the user's viewport.*/
-  #banner img {
-      width: 100%;
-  }
+    /*Allowing the banner to take the width of the user's viewport.*/
+    #banner img {
+        width: 100%;
+    }
 
-  /*This section provieds styling for each of the sections.*/
-  #About_Me, #Purpose, #Featured_Project {
-      width: 100%;
-      height: 50vh;
-      margin-top: 0;
-  }
+    /*This section provieds styling for each of the sections.*/
+    #About_Me, #Purpose, #Featured_Project {
+        width: 100%;
+        height: 50vh;
+        margin-top: 0;
+    }
 
-  /*This is to move the container to the desired position*/
-  #About_Me article, #Featured_Project article {
-      height: 45vh;
-      display: flex;
-      margin-left: 25%;
-      background-image: linear-gradient(to right, var(--Gradient_colour), var(--Backgroun_colour));
-  }
+    /*This is to move the container to the desired position*/
+    #About_Me article, #Featured_Project article {
+        height: 45vh;
+        display: flex;
+        margin-left: 25%;
+        background-image: linear-gradient(to right, var(--Gradient_colour), var(--Backgroun_colour));
+    }
 
-  /*This is to move the img to the desired position.*/
-  #About_Me img, #Featured_Project img {
-      width: 25%;
-      height: 40vh;
-      padding-top: 4vh;
-      margin-left: -15%;
-  }
+    /*This is to move the img to the desired position.*/
+    #About_Me img, #Featured_Project img {
+        width: 25%;
+        height: 40vh;
+        padding-top: 4vh;
+        margin-left: -15%;
+    }
 
-  #About_Me div, #Featured_Project div {
-      padding-left: 2%;
-  }
+    #About_Me div, #Featured_Project div {
+        padding-left: 2%;
+    }
 
-  #About_Me h2, #Featured_Project h2{
-    left: 35%;
-    width: 50%;
-    color: rgb(79, 62, 30);
-    font-size: var(--Header_text_size);
-  }
+    #About_Me h2, #Featured_Project h2{
+        left: 35%;
+        width: 50%;
+        color: rgb(79, 62, 30);
+        font-size: var(--Header_text_size);
+    }
 
-  #About_Me p, #Featured_Project p {
-    left: 20%;
-    width: 75%;
-    color: var(--Content_colour);
-    font-size: var(--Content_text_size);
-  }
+    #About_Me p, #Featured_Project p {
+        left: 20%;
+        width: 75%;
+        color: var(--Content_colour);
+        font-size: var(--Content_text_size);
+    }
 
-  /*This is to move the container to the desired position*/
-  #Purpose article {
-    height: 45vh;
-    display: flex;
-    margin-right: 25%; 
-    background-image: linear-gradient(to right, var(--Backgroun_colour), var(--Gradient_colour)) 
-}
+    /*This is to move the container to the desired position*/
+    #Purpose article {
+        height: 45vh;
+        display: flex;
+        margin-right: 25%; 
+        background-image: linear-gradient(to right, var(--Backgroun_colour), var(--Gradient_colour)) 
+    }
 
-/*This is to move the img to the desired position.*/
-#Purpose img {
-    width: 25%;
-    height: 40vh;
-    padding-top: 4vh;
-    margin-right: -15%;
-}
+    /*This is to move the img to the desired position.*/
+    #Purpose img {
+        width: 25%;
+        height: 40vh;
+        padding-top: 4vh;
+        margin-right: -15%;
+    }
 
-#Purpose div {
-    padding-right: 2%;
-}
+    /*This is to adjust the position and styling of the text content of this section.*/
+    #Purpose div {
+        padding-right: 2%;
+    }
 
-#Purpose h2{
-    width: 50%;
-    margin-left: 80%;
-    color: rgb(79, 62, 30);
-    font-size: var(--Header_text_size);
-  }
+    #Purpose h2{
+        width: 50%;
+        margin-left: 80%;
+        color: rgb(79, 62, 30);
+        font-size: var(--Header_text_size);
+    }
 
   #Purpose p {
     width: 75%;  
@@ -164,96 +170,102 @@ header nav ul li a:hover{
     font-size: var(--Content_text_size);
 }
 
-#Web_Apps_Sites article,
-#Ongoing_Projects article,
-#Other_Projects article {
-    margin: 0 5% 40px 5%;
-    background-image: linear-gradient(to bottom, var(--Gradient_colour), var(--Backgroun_colour)) 
-}
+    /*As all 3 sections will look identical, other than different content, I joined them
+    for easy styling.*/
+    #Web_Apps_Sites article,
+    #Ongoing_Projects article,
+    #Other_Projects article {
+        margin: 0 5% 40px 5%;
+        background-image: linear-gradient(to bottom, var(--Gradient_colour), var(--Backgroun_colour)) 
+    }
 
-#Web_Apps_Sites img,
-#Ongoing_Projects img,
-#Other_Projects img {
-    width: 100%;
-    height: 150px;
-    margin: 20px 0;
-}
+    #Web_Apps_Sites img,
+    #Ongoing_Projects img,
+    #Other_Projects img {
+        width: 100%;
+        height: 150px;
+        margin: 20px 0;
+    }
 
-#Web_Apps_Sites a,
-#Ongoing_Projects a,
-#Other_Projects a {
-    width: 40%;
-}
+    #Web_Apps_Sites a,
+    #Ongoing_Projects a,
+    #Other_Projects a {
+        width: 40%;
+    }
 
-/*This section styles the header of the web apps/sites article.*/
-#Web_Apps_Sites h2,
-#Ongoing_Projects h2,
-#Other_Projects h2 {
-    text-align: center;
-    color: rgb(79, 62, 30);
-    font-size: var(--Header_text_size);
-}
+    /*This section styles the header of the web apps/sites article.*/
+    #Web_Apps_Sites h2,
+    #Ongoing_Projects h2,
+    #Other_Projects h2 {
+        text-align: center;
+        color: rgb(79, 62, 30);
+        font-size: var(--Header_text_size);
+    }
 
-#Web_Apps_Sites div,
-#Ongoing_Projects div,
-#Other_Projects div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+    /*This section allows the content to wrap to different lines depending on the width available.*/
+    #Web_Apps_Sites div,
+    #Ongoing_Projects div,
+    #Other_Projects div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 
-#Contact_Info article {
-    top: -30vh;
-    margin: 0 80px;
-    padding: 40px 0 0 0;
-    background-image: linear-gradient(to bottom, var(--Gradient_colour), var(--Backgroun_colour));
-}
+    /*This entire section styles the contact area of the website.*/
+    #Contact_Info article {
+        top: -30vh;
+        margin: 0 80px;
+        padding: 40px 0 0 0;
+        background-image: linear-gradient(to bottom, var(--Gradient_colour), var(--Backgroun_colour));
+    }
 
-#Contact_Info h2 {
-    top: -2vh;
-    z-index: 1;
-    text-align: center;
-    color: rgb(79, 62, 30);
-    font-size: var(--Header_text_size);
-}
+    #Contact_Info h2 {
+        top: -2vh;
+        z-index: 1;
+        text-align: center;
+        color: rgb(79, 62, 30);
+        font-size: var(--Header_text_size);
+    }
 
-#Contact_Info p {
-    top: -2vh;
-    margin-left: 30px;
-    text-align: center;
-    color: var(--Content_colour);
-    font-size: var(--Content_text_size);
-}
+    #Contact_Info p {
+        top: -2vh;
+        margin-left: 30px;
+        text-align: center;
+        color: var(--Content_colour);
+        font-size: var(--Content_text_size);
+    }
 
-#Contact_Info div {
-    display: flex;
-    justify-content: space-around;
-}
+    #Contact_Info div {
+        display: flex;
+        justify-content: space-around;
+    }
 
-#Contact_Info a {
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--Content_colour);
-    text-shadow: var(--Text_shadow);
-    font-size: var(--Content_text_size);
-}
+    #Contact_Info a {
+        font-weight: bold;
+        text-decoration: none;
+        color: var(--Content_colour);
+        text-shadow: var(--Text_shadow);
+        font-size: var(--Content_text_size);
+    }
 
-#Contact_Info a:hover {
-    color: var(--Navegation_colour);
-}
+    #Contact_Info a:hover {
+        color: var(--Navegation_colour);
+    }
 
-footer {
-    font-size: 20px;
-    padding: 20px 0;
-    text-align: center;
-}
+    /*This entire section styles the footer area of the website.*/
+    footer {
+        font-size: 20px;
+        padding: 20px 0;
+        text-align: center;
+    }
 
-footer a {
-    text-decoration: none;
-    color: var(--Navegation_colour);
-    text-shadow: var(--Text_shadow);
-}
+    footer a {
+        text-decoration: none;
+        color: var(--Navegation_colour);
+        text-shadow: var(--Text_shadow);
+    }
 
-footer a:hover {
-    color: rgb(79, 62, 30);
-}
+    /*This proviedes some user interactivity.*/
+    footer a:hover {
+        color: rgb(79, 62, 30);
+    }

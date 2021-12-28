@@ -1,3 +1,4 @@
+/*This file is to change the style of the website for tablet devices.*/
 @media screen and (max-width: 768px) {
     header nav ul ul li {
         display: none;
@@ -8,9 +9,9 @@
     }
 
     #About_Me h2, #Purpose h2, #Featured_Project h2 {
-        margin-left: 0;
         padding: 0;
         width: 100%;
+        margin-left: 0;
         color: rgb(221, 200, 163);
     }
 
@@ -31,6 +32,4 @@
      {
         color: rgb(221, 200, 163);
     }
-
-
 }
