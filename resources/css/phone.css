@@ -1,5 +1,9 @@
 @media screen and (max-width: 575px) {
     
+    header nav {
+        font-size: 26px;
+    }
+
     header h1{
         font-size: 32px;
     }
