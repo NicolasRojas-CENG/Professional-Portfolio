@@ -1,6 +1,6 @@
 # Professional-Portfolio
 ```
-First Callenge. Due date: 26th of December 2021.
+Second Callenge. Due date: 9th of January 2022.
 ```
 
 ## Goal of the Project
