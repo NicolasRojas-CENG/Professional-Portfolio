@@ -1,0 +1,35 @@
+/*This file is to change the style of the website for tablet devices.*/
+@media screen and (max-width: 768px) {
+    header nav ul ul li {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    #About_Me h2, #Purpose h2, #Featured_Project h2 {
+        padding: 0;
+        width: 100%;
+        margin-left: 0;
+        color: rgb(221, 200, 163);
+    }
+
+    #About_Me p, #Purpose p, #Featured_Project p {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #Purpose div {
+        margin-left: 10px;
+    }
+
+    #Web_Apps_Sites h2,
+    #Ongoing_Projects h2,
+    #Other_Projects h2,
+    #Contact_Info h2
+     {
+        color: rgb(221, 200, 163);
+    }
+}
