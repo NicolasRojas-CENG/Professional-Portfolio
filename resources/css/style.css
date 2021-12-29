@@ -128,11 +128,20 @@
         font-size: var(--Header_text_size);
     }
 
+    #Featured_Project h2 {
+        width: 75%;
+    }
+
     #About_Me p, #Featured_Project p {
         left: 20%;
         width: 75%;
         color: var(--Content_colour);
         font-size: var(--Content_text_size);
+    }
+
+    #Featured_Project a {
+        text-decoration: none;
+        color: var(--Content_colour);
     }
 
     /*This is to move the container to the desired position*/
@@ -158,7 +167,7 @@
 
     #Purpose h2{
         width: 50%;
-        margin-left: 80%;
+        margin-left: 75%;
         color: rgb(79, 62, 30);
         font-size: var(--Header_text_size);
     }
