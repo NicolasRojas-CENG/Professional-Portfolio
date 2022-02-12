@@ -80,4 +80,4 @@ The steps I took to coplete this challenge were:
 
 ## Completed web site
 ***
-[Click here to view the final result of the web page.](https://nicolasrojas-ceng.github.io/Professional-Portfolio// "Portfolio: LucaRojas")
+[Click here to view the final result of the web page.](https://nicolasrojas-ceng.github.io/Professional_Portfolio/ "Portfolio: LucaRojas")
